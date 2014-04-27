@@ -1,36 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="1.0" branch-rate="1.0" lines-covered="9" lines-valid="9" branches-covered="0" branches-valid="0" complexity="1.0" version="1.9.4.1" timestamp="1397950750365">
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="22" lines-valid="22" branches-covered="0" branches-valid="0" complexity="1.0" version="1.9.4.1" timestamp="1398640306282">
 	<sources>
-		<source>/mnt/library/home/zxv/Documents/universidad/aydoo/git/untref-aydoo-mrodriguez/GraficadorDeFunciones/src</source>
+		<source>/home/guillermo/GUILLE/UNTREF/Analisis y Diseño Orientado a Objetos/Repositorio-GIT-Individual/untref-aydoo-garispe/GraficadorDeFunciones/src</source>
 	</sources>
 	<packages>
-		<package name="fiuba.algo3.ejemplo1" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+		<package name="untref.aydoo.graficadorDeFunciones" line-rate="1.0" branch-rate="1.0" complexity="1.0">
 			<classes>
-				<class name="fiuba.algo3.ejemplo1.Foo" filename="fiuba/algo3/ejemplo1/Foo.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
-					<methods>
-						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
-							<lines>
-								<line number="3" hits="1" branch="false"/>
-							</lines>
-						</method>
-						<method name="doFoo" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
-							<lines>
-								<line number="6" hits="1" branch="false"/>
-							</lines>
-						</method>
-					</methods>
-					<lines>
-						<line number="3" hits="1" branch="false"/>
-						<line number="6" hits="1" branch="false"/>
-					</lines>
-				</class>
-			</classes>
-		</package>
-		<package name="untref.aydoo.graficador" line-rate="1.0" branch-rate="1.0" complexity="1.0">
-			<classes>
-				<class name="untref.aydoo.graficador.FuncionConstante" filename="untref/aydoo/graficador/FuncionConstante.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+				<class name="untref.aydoo.graficadorDeFunciones.FuncionConstante" filename="untref/aydoo/graficadorDeFunciones/FuncionConstante.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
 					<methods>
 						<method name="&lt;init&gt;" signature="(F)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
@@ -39,7 +17,7 @@
 								<line number="11" hits="2" branch="false"/>
 							</lines>
 						</method>
-						<method name="evaluarEn" signature="(F)F" line-rate="1.0" branch-rate="1.0">
+						<method name="analizarEn" signature="(F)F" line-rate="1.0" branch-rate="1.0">
 							<lines>
 								<line number="15" hits="2" branch="false"/>
 							</lines>
@@ -52,24 +30,82 @@
 						<line number="15" hits="2" branch="false"/>
 					</lines>
 				</class>
-				<class name="untref.aydoo.graficador.FuncionLineal" filename="untref/aydoo/graficador/FuncionLineal.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+				<class name="untref.aydoo.graficadorDeFunciones.FuncionCuadratica" filename="untref/aydoo/graficadorDeFunciones/FuncionCuadratica.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
 					<methods>
-						<method name="&lt;init&gt;" signature="(FF)V" line-rate="1.0" branch-rate="1.0">
+						<method name="&lt;init&gt;" signature="(FFF)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="5" hits="1" branch="false"/>
-								<line number="7" hits="1" branch="false"/>
+								<line number="9" hits="2" branch="false"/>
+								<line number="11" hits="2" branch="false"/>
+								<line number="12" hits="2" branch="false"/>
+								<line number="13" hits="2" branch="false"/>
+								<line number="15" hits="2" branch="false"/>
 							</lines>
 						</method>
-						<method name="evaluarEn" signature="(F)F" line-rate="1.0" branch-rate="1.0">
+						<method name="analizarEn" signature="(F)F" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="11" hits="1" branch="false"/>
+								<line number="19" hits="2" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
-						<line number="5" hits="1" branch="false"/>
-						<line number="7" hits="1" branch="false"/>
-						<line number="11" hits="1" branch="false"/>
+						<line number="9" hits="2" branch="false"/>
+						<line number="11" hits="2" branch="false"/>
+						<line number="12" hits="2" branch="false"/>
+						<line number="13" hits="2" branch="false"/>
+						<line number="15" hits="2" branch="false"/>
+						<line number="19" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="untref.aydoo.graficadorDeFunciones.FuncionCubica" filename="untref/aydoo/graficadorDeFunciones/FuncionCubica.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(FFFF)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="10" hits="2" branch="false"/>
+								<line number="12" hits="2" branch="false"/>
+								<line number="13" hits="2" branch="false"/>
+								<line number="14" hits="2" branch="false"/>
+								<line number="15" hits="2" branch="false"/>
+								<line number="17" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="analizarEn" signature="(F)F" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="2" branch="false"/>
+						<line number="12" hits="2" branch="false"/>
+						<line number="13" hits="2" branch="false"/>
+						<line number="14" hits="2" branch="false"/>
+						<line number="15" hits="2" branch="false"/>
+						<line number="17" hits="2" branch="false"/>
+						<line number="21" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="untref.aydoo.graficadorDeFunciones.FuncionLineal" filename="untref/aydoo/graficadorDeFunciones/FuncionLineal.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(FF)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="8" hits="2" branch="false"/>
+								<line number="10" hits="2" branch="false"/>
+								<line number="11" hits="2" branch="false"/>
+								<line number="13" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="analizarEn" signature="(F)F" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="17" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="2" branch="false"/>
+						<line number="10" hits="2" branch="false"/>
+						<line number="11" hits="2" branch="false"/>
+						<line number="13" hits="2" branch="false"/>
+						<line number="17" hits="2" branch="false"/>
 					</lines>
 				</class>
 			</classes>
