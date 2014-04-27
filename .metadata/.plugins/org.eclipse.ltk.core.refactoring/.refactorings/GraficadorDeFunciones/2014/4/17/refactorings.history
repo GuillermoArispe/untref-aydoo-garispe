@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;untref.aydoo.graficadorDeFunciones.tests&apos; to &apos;GraficadorDeFunciones/tests&apos;&#x0A;- Original project: &apos;GraficadorDeFunciones&apos;&#x0A;- Destination element: &apos;GraficadorDeFunciones/tests&apos;&#x0A;- Original element: &apos;GraficadorDeFunciones/src/untref.aydoo.graficadorDeFunciones.tests&apos;&#x0A;- Update references to refactored element" description="Move package" destination="/tests" element1="/src&lt;untref.aydoo.graficadorDeFunciones.tests" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1398638602538" version="1.0"/>
+</session>
